@@ -1,0 +1,125 @@
+{
+    "members": [
+      {
+        "name": "Kelvin",
+        "weight": 5,
+        "roles": {
+          "top": true,
+          "jungle": true,
+          "middle": true,
+          "adc": true,
+          "support": true
+        }
+      },
+      {
+        "name": "Alex",
+        "weight": 1,
+        "roles": {
+          "top": true,
+          "jungle": false,
+          "middle": true,
+          "adc": false,
+          "support": false
+        }
+      },
+      {
+        "name": "Frances",
+        "weight": 3,
+        "roles": {
+          "top": false,
+          "jungle": true,
+          "middle": true,
+          "adc": true,
+          "support": true
+        }
+      },
+      {
+        "name": "Paul",
+        "weight": 4,
+        "roles": {
+          "top": true,
+          "jungle": true,
+          "middle": false,
+          "adc": false,
+          "support": false
+        }
+      },
+      {
+        "name": "Kieran",
+        "weight": 10,
+        "roles": {
+          "top": false,
+          "jungle": true,
+          "middle": true,
+          "adc": true,
+          "support": true
+        }
+      },
+      {
+        "name": "Robo",
+        "weight": 4,
+        "roles": {
+          "top": false,
+          "jungle": true,
+          "middle": true,
+          "adc": false,
+          "support": false
+        }
+      },
+      {
+        "name": "James",
+        "weight": 5,
+        "roles": {
+          "top": true,
+          "jungle": false,
+          "middle": true,
+          "adc": false,
+          "support": false
+        }
+      },
+      {
+        "name": "Ricky",
+        "weight": 5,
+        "roles": {
+          "top": true,
+          "jungle": true,
+          "middle": false,
+          "adc": false,
+          "support": false
+        }
+      },
+      {
+        "name": "Will",
+        "weight": 2,
+        "roles": {
+          "top": false,
+          "jungle": true,
+          "middle": false,
+          "adc": false,
+          "support": true
+        }
+      },
+      {
+        "name": "Eric",
+        "weight": 1,
+        "roles": {
+          "top": false,
+          "jungle": false,
+          "middle": false,
+          "adc": false,
+          "support": true
+        }
+      },
+      {
+        "name": "Kyle",
+        "weight": 3,
+        "roles": {
+          "top": false,
+          "jungle": true,
+          "middle": true,
+          "adc": true,
+          "support": true
+        }
+      }
+    ]
+  }
