@@ -120,6 +120,39 @@
           "adc": true,
           "support": true
         }
+      },
+      {
+        "name": "Robby",
+        "weight": 2,
+        "roles": {
+          "top": true,
+          "jungle": false,
+          "middle": false,
+          "adc": false,
+          "support": true
+        }
+      },
+      {
+        "name": "Juan",
+        "weight": 3,
+        "roles": {
+          "top": false,
+          "jungle": false,
+          "middle": true,
+          "adc": true,
+          "support": false
+        }
+      },
+      {
+        "name": "Harris",
+        "weight": 1,
+        "roles": {
+          "top": false,
+          "jungle": false,
+          "middle": false,
+          "adc": true,
+          "support": false
+        }
       }
     ]
   }
