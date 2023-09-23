@@ -7,6 +7,7 @@ import (
 	"math"
 	"math/rand"
 	"os"
+	"strconv"
 	"time"
 
 	"github.com/Coaltergeist/team-balancer/pkg/models"
@@ -682,9 +683,9 @@ func isSupportOpen(team1, team2 models.Team) bool {
 }
 
 func formatTeams(t models.Teams) string {
-	return "Teams:" + formatTeam(t.Team1) + formatTeam(t.Team2)
+	return "Teams:\n\nTeam 1 weight: " + strconv.Itoa(t.Team1.Weight) + "\t\t" + formatTeam(t.Team1) + "\n\nTeam 2 weight:" + strconv.Itoa(t.Team1.Weight) + "\t\t" + formatTeam(t.Team2)
 }
 
 func formatTeam(t models.Team) string {
-	return "\n\tTop: " + t.Top.Name + "\n\tJungle: " + t.Jungle.Name + "\n\tMiddle: " + t.Middle.Name + "\n\tADC: " + t.ADC.Name + "\n\tSupport: " + t.Support.Name
+	return "\n\t" + t.Top.Name + " weight: " + strconv.Itoa(t.Top.Weight) + "\n\t" + t.Jungle.Name + " weight: " + strconv.Itoa(t.Jungle.Weight) + "\n\t" + t.Middle.Name + " weight: " + strconv.Itoa(t.Middle.Weight) + "\n\t" + t.ADC.Name + " weight: " + strconv.Itoa(t.ADC.Weight) + "\n\t" + t.Support.Name + " weight: " + strconv.Itoa(t.Support.Weight)
 }
