@@ -2,7 +2,7 @@
     "members": [
       {
         "name": "Kelvin",
-        "weight": 5,
+        "weight": 9,
         "roles": {
           "top": true,
           "jungle": true,
@@ -13,7 +13,7 @@
       },
       {
         "name": "Alex",
-        "weight": 1,
+        "weight": 2,
         "roles": {
           "top": true,
           "jungle": true,
@@ -24,7 +24,7 @@
       },
       {
         "name": "Frances",
-        "weight": 3,
+        "weight": 5,
         "roles": {
           "top": true,
           "jungle": true,
@@ -35,7 +35,7 @@
       },
       {
         "name": "Paul",
-        "weight": 4,
+        "weight": 9,
         "roles": {
           "top": true,
           "jungle": true,
@@ -46,7 +46,7 @@
       },
       {
         "name": "Kieran",
-        "weight": 10,
+        "weight": 20,
         "roles": {
           "top": true,
           "jungle": true,
@@ -57,7 +57,7 @@
       },
       {
         "name": "Robo",
-        "weight": 4,
+        "weight": 7,
         "roles": {
           "top": true,
           "jungle": true,
@@ -68,7 +68,7 @@
       },
       {
         "name": "James",
-        "weight": 5,
+        "weight": 11,
         "roles": {
           "top": true,
           "jungle": true,
@@ -79,7 +79,7 @@
       },
       {
         "name": "Ricky",
-        "weight": 5,
+        "weight": 10,
         "roles": {
           "top": true,
           "jungle": true,
@@ -90,7 +90,7 @@
       },
       {
         "name": "Will",
-        "weight": 2,
+        "weight": 3,
         "roles": {
           "top": true,
           "jungle": true,
@@ -101,7 +101,7 @@
       },
       {
         "name": "Eric",
-        "weight": 1,
+        "weight": 2,
         "roles": {
           "top": true,
           "jungle": true,
@@ -112,7 +112,7 @@
       },
       {
         "name": "Kyle",
-        "weight": 3,
+        "weight": 6,
         "roles": {
           "top": true,
           "jungle": true,
@@ -123,17 +123,6 @@
       },
       {
         "name": "Robby",
-        "weight": 2,
-        "roles": {
-          "top": true,
-          "jungle": true,
-          "middle": true,
-          "adc": true,
-          "support": true
-        }
-      },
-      {
-        "name": "Juan",
         "weight": 3,
         "roles": {
           "top": true,
@@ -144,8 +133,19 @@
         }
       },
       {
+        "name": "Juan",
+        "weight": 5,
+        "roles": {
+          "top": true,
+          "jungle": true,
+          "middle": true,
+          "adc": true,
+          "support": true
+        }
+      },
+      {
         "name": "Harris",
-        "weight": 2,
+        "weight": 3,
         "roles": {
           "top": true,
           "jungle": true,

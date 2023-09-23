@@ -21,6 +21,8 @@ const (
 	Support = "support"
 )
 
+// TODO implement role
+
 func main() {
 	// set seed
 	rand.Seed(time.Now().UnixNano())
@@ -683,7 +685,7 @@ func isSupportOpen(team1, team2 models.Team) bool {
 }
 
 func formatTeams(t models.Teams) string {
-	return "Teams:\n\nTeam 1 weight: " + strconv.Itoa(t.Team1.Weight) + "\t\t" + formatTeam(t.Team1) + "\n\nTeam 2 weight:" + strconv.Itoa(t.Team1.Weight) + "\t\t" + formatTeam(t.Team2)
+	return "Teams:\n\nTeam 1 weight: " + strconv.Itoa(t.Team1.Weight) + "\t\t" + formatTeam(t.Team1) + "\n\nTeam 2 weight: " + strconv.Itoa(t.Team1.Weight) + "\t\t" + formatTeam(t.Team2)
 }
 
 func formatTeam(t models.Team) string {
